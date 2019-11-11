@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test thread-count="5" name="CHROMEtest">
+		<parameter name="nodeUrl" value="http://localhost:4444/wd/hub/" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="appUrl" value="https://www.flipkart.com/" />
+		<classes>
+			<class name="com.flipkart.tests.VerifyInfoProducSearchVsCartScreens" />
+		</classes>
+	</test>	
+
+  <test thread-count="5" name="FIREFOXtest">
+		<parameter name="nodeUrl" value="http://localhost:4444/wd/hub/" />
+		<parameter name="browser" value="firefox" />
+		<parameter name="appUrl" value="https://www.flipkart.com/" />
+		<classes>
+			<class name="com.flipkart.tests.VerifyInfoProducSearchVsCartScreens" />
+		</classes>
+	</test> 
+</suite> 

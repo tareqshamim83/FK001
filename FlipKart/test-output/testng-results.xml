@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TesttestVerifyInfoProducSearchVsCartScreensis PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65976" started-at="2019-11-11T15:31:21Z" finished-at="2019-11-11T15:32:27Z">
+    <groups>
+    </groups>
+    <test name="CHROMEtest" duration-ms="65976" started-at="2019-11-11T15:31:21Z" finished-at="2019-11-11T15:32:27Z">
+      <class name="com.flipkart.tests.VerifyInfoProducSearchVsCartScreens">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.tests.VerifyInfoProducSearchVsCartScreens@6a41eaa2]" name="openApp" is-config="true" duration-ms="17842" started-at="2019-11-11T15:31:21Z" finished-at="2019-11-11T15:31:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testVerifyInfoProducSearchVsCartScreens()[pri:1, instance:com.flipkart.tests.VerifyInfoProducSearchVsCartScreens@6a41eaa2]" name="testVerifyInfoProducSearchVsCartScreens" duration-ms="44884" started-at="2019-11-11T15:31:39Z" finished-at="2019-11-11T15:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyInfoProducSearchVsCartScreens -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.flipkart.tests.VerifyInfoProducSearchVsCartScreens@6a41eaa2]" name="closeApp" is-config="true" duration-ms="3209" started-at="2019-11-11T15:32:24Z" finished-at="2019-11-11T15:32:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyInfoProducSearchVsCartScreens status=SUCCESS method=VerifyInfoProducSearchVsCartScreens.testVerifyInfoProducSearchVsCartScreens()[pri:1, instance:com.flipkart.tests.VerifyInfoProducSearchVsCartScreens@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TesttestVerifyInfoProducSearchVsCartScreensis PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.flipkart.tests.VerifyInfoProducSearchVsCartScreens -->
+    </test> <!-- CHROMEtest -->
+  </suite> <!-- Suite -->
+</testng-results>
